@@ -3,3 +3,4 @@ numpy
 flask
 joblib
 scikit-learn
+streamlit
