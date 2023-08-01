@@ -4,3 +4,4 @@ flask
 joblib
 scikit-learn
 streamlit
+pandas
