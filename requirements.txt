@@ -1,5 +1,4 @@
 gunicorn
-python3
 numpy
 flask
 joblib
