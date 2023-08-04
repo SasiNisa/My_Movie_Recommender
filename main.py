@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 def fetch_poster(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US".format(movie_id)
+    url = "https://api.themoviedb.org/3/movie/{}?api_key=bf1d8a5f0f007057b89e0f52a5d0d778&language=en-US".format(movie_id)
     data = requests.get(url)
     data = data.json()
     poster_path = data['poster_path']
